@@ -1,6 +1,7 @@
 .logo img {
   width: 20vw;
-  height: 15vh;
-  flex-grow: 1;
+  height: 10vh;
+  margin-top: 5rem;
+
   border: 2px dashed red;
 }

@@ -12,9 +12,3 @@ body {
   height: 100vh;
   background-image: url(../images/bg_001.jpg);
 }
-main {
-  width: 70%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

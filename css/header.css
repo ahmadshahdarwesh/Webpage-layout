@@ -1,23 +1,28 @@
 header {
-  width: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid yellow;
+  height: 5vh;
+  width: 70%;
 }
-nav ul {
+header .menue ul {
   display: flex;
-  align-items: flex-start;
-  border: 2px solid black;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: flex-end;
+  justify-content: space-around;
+  border: 2px solid white;
 }
-nav ul li {
+header nav ul li {
   display: flex;
-  display: inline;
+  justify-content: center;
+  align-items: flex-end;
   justify-content: space-around;
 }
-nav ul li a {
+header nav ul li a {
   text-decoration: none;
+  padding: 2rem;
+  margin-top: 2rem;
   color: var(--main-text-color);
+  list-style: none;
 }

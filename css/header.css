@@ -1,12 +1,23 @@
 header {
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: space-around;
+  border: 2px solid yellow;
+}
+nav ul {
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid black;
+  justify-content: space-evenly;
 }
 nav ul li {
+  display: flex;
   display: inline;
+  justify-content: space-around;
 }
 nav ul li a {
   text-decoration: none;
+  color: var(--main-text-color);
 }

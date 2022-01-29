@@ -29,3 +29,20 @@ div img {
 
   height: 50vh;
 }
+.links :nth-child(1) {
+  border: 1px white solid;
+  text-decoration: none;
+  color: var(--main-text-color);
+  background-color: rgb(95, 207, 95);
+  width: 4rem;
+  height: 4rem;
+}
+.links :nth-child(2) {
+  border: 1px white solid;
+  text-decoration: none;
+  color: var(--main-text-color);
+  background-color: rgb(70, 146, 218);
+  width: 6rem;
+  height: 4rem;
+  margin-left: 2rem;
+}

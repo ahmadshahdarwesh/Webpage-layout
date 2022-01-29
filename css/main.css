@@ -1,26 +1,31 @@
-.main-container {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  border: 5px solid orange;
-}
 .body {
   display: flex;
-  margin-top: 5rem;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+
+  flex-direction: row;
+  border: 5px solid orange;
+  margin-top: 10rem;
   color: var(--main-text-color);
 }
+
+.text {
+  display: flex;
+  color: var(--main-text-color);
+  width: 18rem;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  height: 23vh;
+  margin-top: 10rem;
+  margin-right: 31rem;
+}
+
 .imges {
   display: flex;
+  flex-direction: row;
+  flex-grow: 1;
 }
+
 div img {
   border: 2px dashed yellow;
-  height: 40vh;
+
+  height: 50vh;
 }

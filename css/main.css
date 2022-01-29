@@ -4,4 +4,30 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: column;
+}
+section {
+  height: 75vh;
+  display: flex;
+
+  flex-wrap: wrap;
+  width: 70vw;
+}
+.main {
+  border: 2px solid white;
+  display: flex;
+  margin-top: 10rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  color: var(--main-text-color);
+  width: 40%;
+}
+.imges {
+  display: flex;
+}
+div img {
+  border: 2px dashed yellow;
+  height: 40vh;
 }

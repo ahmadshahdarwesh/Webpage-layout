@@ -4,25 +4,20 @@ header {
   align-items: center;
   justify-content: space-around;
   height: 5vh;
-  width: 70%;
 }
-header .menue ul {
+header nav ul {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
   justify-content: space-around;
   border: 2px solid white;
 }
+
 header nav ul li {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  justify-content: space-around;
 }
+
 header nav ul li a {
   text-decoration: none;
   padding: 2rem;
   margin-top: 2rem;
   color: var(--main-text-color);
-  list-style: none;
 }

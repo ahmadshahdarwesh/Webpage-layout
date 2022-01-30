@@ -3,19 +3,19 @@
 
   flex-direction: row;
   border: 5px solid orange;
-  margin-top: 10rem;
+  margin-bottom: 12rem;
   color: var(--main-text-color);
 }
 
 .text {
   display: flex;
   color: var(--main-text-color);
-  width: 18rem;
+  width: 20rem;
   flex-wrap: wrap;
-  flex-grow: 2;
+  font-size: 1.2rem;
   height: 26vh;
   margin-top: 4rem;
-  margin-right: 20rem;
+  margin-right: 33rem;
 }
 
 .imges {
@@ -46,7 +46,7 @@
   text-decoration: none;
   color: var(--main-text-color);
   background-color: rgb(70, 146, 218);
-  width: 6rem;
-  height: 4rem;
+  flex-basis: 5px;
+
   margin-left: 2rem;
 }

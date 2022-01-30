@@ -46,7 +46,6 @@
   text-decoration: none;
   color: var(--main-text-color);
   background-color: rgb(70, 146, 218);
-  flex-basis: 5px;
-
-  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-left: 4rem;
 }

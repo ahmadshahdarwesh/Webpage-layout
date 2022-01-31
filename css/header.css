@@ -1,28 +1,23 @@
-header nav {
+header {
   display: flex;
   justify-content: center;
-  width: 60%;
-  align-items: flex-start;
-  margin-left: 29rem;
-  margin-bottom: 10rem;
+  align-items: center;
   height: 10vh;
+  border: 2px solid white;
 }
+header nav {
+  flex-grow: 1;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-around;
-  flex-grow: 2;
-  align-content: center;
-  border: 2px solid white;
 }
-
 header nav ul li {
-  display: flex;
+  display: inline;
+  list-style: none;
 }
-
-header nav ul li a {
+a {
   text-decoration: none;
-  padding: 2rem;
-  margin-top: 3.5rem;
-
-  color: var(--main-text-color);
+  color: white;
 }

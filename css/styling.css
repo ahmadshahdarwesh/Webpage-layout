@@ -2,6 +2,7 @@
 @import url(./logo.css);
 @import url(./header.css);
 @import url(./main.css);
+@import url(./mobile.css);
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,9 @@
 body {
   width: 100vw;
   height: 100vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   background-image: url(../images/bg_001.jpg);
 }

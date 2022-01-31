@@ -1,22 +1,22 @@
 header nav {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-left: 15rem;
+  width: 60%;
+  align-items: flex-start;
+  margin-left: 29rem;
   margin-bottom: 10rem;
   height: 10vh;
 }
 header nav ul {
   display: flex;
   justify-content: space-around;
-
+  flex-grow: 2;
   align-content: center;
   border: 2px solid white;
 }
 
 header nav ul li {
   display: flex;
-  flex-grow: 4;
 }
 
 header nav ul li a {

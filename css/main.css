@@ -1,21 +1,25 @@
 .body {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
+  width: 60%;
   flex-direction: row;
   border: 5px solid orange;
   margin-bottom: 12rem;
   color: var(--main-text-color);
+  margin-left: 30rem;
 }
 
 .text {
   display: flex;
   color: var(--main-text-color);
-  width: 20rem;
+  width: rem;
   flex-wrap: wrap;
   font-size: 1.2rem;
   height: 26vh;
+  border: 2px solid palevioletred;
   margin-top: 4rem;
-  margin-right: 33rem;
+  margin-right: 23rem;
 }
 
 .imges {
@@ -34,12 +38,11 @@
   border: 2px solid red;
 }
 .links :nth-child(1) {
-  border: 1px white solid;
   text-decoration: none;
   color: var(--main-text-color);
   background-color: rgb(95, 207, 95);
-  width: 3rem;
-  height: 5rem;
+  width: 10rem;
+  height: 10rem;
 }
 .links :nth-child(2) {
   border: 1px white solid;

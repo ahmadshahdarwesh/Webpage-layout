@@ -20,9 +20,9 @@
   flex-wrap: wrap;
   font-size: 1.2rem;
   height: 26vh;
-  border: 2px solid palevioletred;
+  /* border: 2px solid palevioletred; */
   margin-top: 4rem;
-  margin-right: 15rem;
+  margin-right: 30rem;
 }
 .buttons {
   margin-left: 3rem;

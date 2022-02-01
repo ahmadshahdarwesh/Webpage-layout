@@ -5,12 +5,12 @@
   width: 60%;
   margin-left: 25rem;
   flex-direction: row;
-  border: 5px solid orange;
+  /* border: 5px solid orange; */
   margin-bottom: 12rem;
   color: var(--main-text-color);
 }
 .text h2 {
-  border: 2px white solid;
+  /* border: 2px white solid; */
   font-weight: bolder;
 }
 .text {

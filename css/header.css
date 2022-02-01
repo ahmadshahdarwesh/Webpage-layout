@@ -3,7 +3,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 10vh;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 header nav ul {

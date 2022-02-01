@@ -8,7 +8,14 @@
 .imges :nth-child(1) {
   position: absolute;
   top: 1rem;
-  right: 6rem;
+  right: 8rem;
+  height: 50vh;
+  border: 2px solid red;
+}
+.imges :nth-child(2) {
+  position: absolute;
+  z-index: -1;
+  right: 2rem;
   height: 50vh;
   border: 2px solid red;
 }
